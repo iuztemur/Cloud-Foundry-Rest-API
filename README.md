@@ -36,7 +36,7 @@ docker build . -t cloud_foundry_python_api
 Python Api listens port 8081, run container on port 8080
 
 ```
-docker run cloud_foundry_python_api -d -p 8080:8080
+docker run -d -p 8080:8080 cloud_foundry_python_api
 ```
 
 Browse url `http://localhost:8080` on your favorite browser.
